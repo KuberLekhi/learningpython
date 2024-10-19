@@ -1,5 +1,8 @@
 import time 
 name = input ("what is your name ?\n")
+if name.lower() == 'kuber':
+   print("You are not welcome here, Goodbye!")
+   exit()
 menu = "\n-tea\n-coffee\n-juice\n-milk"
 print ("Hello " + name + ", I hope you're doing good. What would you like to have from our menu?" + menu )
 order = input()
